@@ -26,5 +26,53 @@
     <ClInclude Include="include\jet\array_accessor1.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="include\jet\array_accessor2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\point2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\point3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\math_utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\size.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\size2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\size3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\array1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\parallel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\array2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\array3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jet\array_accessor3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
