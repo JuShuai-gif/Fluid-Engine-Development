@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/C++/Fluid-Engine-Development/build"
+			"value" : "e:/Project/Fluid-Engine-Development/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "26"
+			"value" : "25"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -119,7 +119,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Software/NewInstall/CMake/bin/cmake.exe"
+			"value" : "E:/SoftWare/Install/CMake/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -131,7 +131,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Software/NewInstall/CMake/bin/cpack.exe"
+			"value" : "E:/SoftWare/Install/CMake/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -143,7 +143,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Software/NewInstall/CMake/bin/ctest.exe"
+			"value" : "E:/SoftWare/Install/CMake/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/mingw64/bin/g++.exe"
 		},
 		{
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/mingw64/bin/gcc.exe"
 		},
 		{
@@ -459,7 +459,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Software/NewInstall/CMake/bin/cmake-gui.exe"
+			"value" : "E:/SoftWare/Install/CMake/bin/cmake-gui.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/C++/Fluid-Engine-Development/build/CMakeFiles/pkgRedirects"
+			"value" : "E:/Project/Fluid-Engine-Development/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/C++/Fluid-Engine-Development"
+			"value" : "E:/Project/Fluid-Engine-Development"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1043,7 +1043,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Software/NewInstall/CMake/share/cmake-3.26"
+			"value" : "E:/SoftWare/Install/CMake/share/cmake-3.25"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/C++/Fluid-Engine-Development/build"
+			"value" : "E:/Project/Fluid-Engine-Development/build"
 		},
 		{
 			"name" : "fluid_engine_dev_IS_TOP_LEVEL",
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/C++/Fluid-Engine-Development"
+			"value" : "E:/Project/Fluid-Engine-Development"
 		}
 	],
 	"kind" : "cache",

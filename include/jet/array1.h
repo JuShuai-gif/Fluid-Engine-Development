@@ -30,7 +30,7 @@ namespace jet {
 template <typename T>
 class Array<T, 1> final {
  public:
-    typedef std::vector<T> ContainerType;
+    typedef std::vector<T> ContainerType;          // vector容器
     typedef typename ContainerType::iterator Iterator;
     typedef typename ContainerType::const_iterator ConstIterator;
 
@@ -92,22 +92,21 @@ class Array<T, 1> final {
     //! Returns the const raw pointer to the array data.
     const T* const data() const;
 
-    //! Returns the begin iterator of the array.
+    // 普通迭代器begin
     Iterator begin();
 
-    //! Returns the begin const iterator of the array.
+    // const迭代器begin
     ConstIterator begin() const;
 
-    //! Returns the end iterator of the array.
+    // 普通迭代器end
     Iterator end();
 
-    //! Returns the end const iterator of the array.
+    // const迭代器end
     ConstIterator end() const;
-
-    //! Returns the array accessor.
+    // 返回数组访问器
     ArrayAccessor1<T> accessor();
 
-    //! Returns the const array accessor.
+    // 返回const数组访问器
     ConstArrayAccessor1<T> constAccessor() const;
 
     //! Swaps the content of the array with \p other array.
@@ -133,7 +132,6 @@ class Array<T, 1> final {
     //!     printf("%d\n", elem);
     //! });
     //! \endcode
-    //!
     template <typename Callback>
     void forEach(Callback func) const;
 
@@ -152,6 +150,7 @@ class Array<T, 1> final {
     //! });
     //! \endcode
     //!
+    /*根据索引遍历数据*/
     template <typename Callback>
     void forEachIndex(Callback func) const;
 
@@ -175,6 +174,7 @@ class Array<T, 1> final {
     //! The parameter type of the callback function doesn't have to be T&, but
     //! const T& or T can be used as well.
     //!
+    /*并行遍历数据*/
     template <typename Callback>
     void parallelForEach(Callback func);
 
@@ -195,6 +195,7 @@ class Array<T, 1> final {
     //! });
     //! \endcode
     //!
+    /*并行遍历根据索引*/
     template <typename Callback>
     void parallelForEachIndex(Callback func) const;
 
@@ -225,6 +226,7 @@ class Array<T, 1> final {
     operator ConstArrayAccessor1<T>() const;
 
  private:
+   // 数组（vector） 
     ContainerType _data;
 };
 

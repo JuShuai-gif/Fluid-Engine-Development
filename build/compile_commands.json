@@ -1,8 +1,7 @@
 [
 {
-  "directory": "E:/C++/Fluid-Engine-Development/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/fluid_engine_dev.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\fluid_engine_dev.dir\\src\\main.cpp.obj -c E:\\C++\\Fluid-Engine-Development\\src\\main.cpp",
-  "file": "E:/C++/Fluid-Engine-Development/src/main.cpp",
-  "output": "CMakeFiles/fluid_engine_dev.dir/src/main.cpp.obj"
+  "directory": "E:/Project/Fluid-Engine-Development/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/fluid_engine_dev.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\fluid_engine_dev.dir\\src\\main.cpp.obj -c E:\\Project\\Fluid-Engine-Development\\src\\main.cpp",
+  "file": "E:/Project/Fluid-Engine-Development/src/main.cpp"
 }
 ]

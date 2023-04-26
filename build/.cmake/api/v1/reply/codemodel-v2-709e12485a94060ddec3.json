@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fluid_engine_dev::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fluid_engine_dev-Debug-d34c8205b3ef1914e8f6.json",
+					"jsonFile" : "target-fluid_engine_dev-Debug-1a92a00582195a6bbb17.json",
 					"name" : "fluid_engine_dev",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/C++/Fluid-Engine-Development/build",
-		"source" : "E:/C++/Fluid-Engine-Development"
+		"build" : "E:/Project/Fluid-Engine-Development/build",
+		"source" : "E:/Project/Fluid-Engine-Development"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 4
 	}
 }

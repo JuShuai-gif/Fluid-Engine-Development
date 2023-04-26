@@ -15,9 +15,7 @@ namespace jet {
 //!
 //! \brief 1-D array accessor class.
 //!
-//! This class represents 1-D array accessor. Array accessor provides array-like
-//! data read/write functions, but does not handle memory management. Thus, it
-//! is more like a random access iterator, but with multi-dimension support.
+//! 一维数组访问器
 //!
 //! \see Array1<T, 2>
 //!

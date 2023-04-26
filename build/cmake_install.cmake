@@ -1,4 +1,4 @@
-# Install script for directory: E:/C++/Fluid-Engine-Development
+# Install script for directory: E:/Project/Fluid-Engine-Development
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/C++/Fluid-Engine-Development/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Project/Fluid-Engine-Development/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
