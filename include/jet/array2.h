@@ -1,8 +1,4 @@
-// Copyright (c) 2018 Doyub Kim
-//
-// I am making my contributions/submissions to this project solely in my
-// personal capacity and am not conveying any rights to any intellectual
-// property of any third parties.
+/**/
 
 #ifndef INCLUDE_JET_ARRAY2_H_
 #define INCLUDE_JET_ARRAY2_H_
@@ -358,7 +354,10 @@ class Array<T, 2> final {
     //! Casts to const array accessor.
     operator ConstArrayAccessor2<T>() const;
 
+    void print();
+
  private:
+    // x 表示宽，y表示高
     Size2 _size;
     std::vector<T> _data;
 };

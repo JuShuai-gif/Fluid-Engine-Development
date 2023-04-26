@@ -202,12 +202,11 @@ Array<T, 1>& Array<T, 1>::operator=(const std::initializer_list<T>& lst) {
     set(lst);
     return *this;
 }
-
-template <typename T>
-std::ostream& operator<<(std::ostream& os,const Array<T,1>& array){
-    os << "operator<<" << std::endl;
-    return os;
-
+template<typename T>
+void Array<T, 1>::print(){
+    parallelForEach([](int& elem){
+		std::cout << elem << " ";
+	});
 }
 
 template <typename T>

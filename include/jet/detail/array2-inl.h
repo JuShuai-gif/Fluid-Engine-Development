@@ -293,6 +293,18 @@ Array<T, 2>::operator ConstArrayAccessor2<T>() const {
     return constAccessor();
 }
 
+template <typename T>
+void Array<T, 2>::print(){
+    for (size_t j = 0; j < _size.x; ++j) {
+        std::cout << "{";
+        for (size_t i = 0; i < _size.y; ++i) {
+            std::cout << _data[j * _size.x + i] << ",";
+        }
+        std::cout << "}" << std::endl;
+    }
+    std::cout << std::endl;
+}
+
 }  // namespace jet
 
 #endif  // INCLUDE_JET_DETAIL_ARRAY2_INL_H_

@@ -1,8 +1,4 @@
-// Copyright (c) 2018 Doyub Kim
-//
-// I am making my contributions/submissions to this project solely in my
-// personal capacity and am not conveying any rights to any intellectual
-// property of any third parties.
+/*  本质上array就是对vector的包装  */
 
 #ifndef INCLUDE_JET_ARRAY1_H_
 #define INCLUDE_JET_ARRAY1_H_
@@ -217,7 +213,7 @@ class Array<T, 1> final {
     //! Copies given initializer list \p lst to this array.
     Array& operator=(const std::initializer_list<T>& lst);
 
-   //std::ostream& operator<<(std::ostream& os,const Array<T,1>& array);
+   void print();
 
     //! Casts to array accessor.
     operator ArrayAccessor1<T>();
